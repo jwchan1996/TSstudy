@@ -12,7 +12,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, "dist"),
     port: 1996, //指定端口号，默认是8080
-    host: 'localhost',
+    host: '127.0.0.1',
     hot: true //热模块加载（其实就是我们的代码更改了，页面不用刷新就会自动加载）       
   },
   module: {
